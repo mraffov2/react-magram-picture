@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9a0a639e5e7b8606dc7f327636a208a",
+    "revision": "d082359778e2bf2155ba2975510b5927",
     "url": "/react-magram-picture/index.html"
   },
   {
