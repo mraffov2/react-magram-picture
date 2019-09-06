@@ -2,6 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://mraffov2.github.io/react-magram-picture",
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.9.0",
@@ -15,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

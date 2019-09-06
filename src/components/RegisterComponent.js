@@ -41,7 +41,7 @@ export class RegisterComponent extends Component {
                 this.setState({loading: false})
             }
             else {
-                axios.post('http://localhost:4000/api/register', qs.stringify(data), {
+                axios.post('https://appexpressjwt.herokuapp.com/api/register', qs.stringify(data), {
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'}
                 })
                 .then( async res => {

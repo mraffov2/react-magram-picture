@@ -64,7 +64,7 @@ export class PostsComponent extends Component {
 
     getPosts= async () => {
         const token = localStorage.getItem('token')
-        await axios.get('http://localhost:4000/api/posts',{
+        await axios.get('https://appexpressjwt.herokuapp.com/api/posts',{
             headers: {'x-access-token': token}
         })
             .then( async (res)  => {
@@ -92,7 +92,7 @@ export class PostsComponent extends Component {
             const token = localStorage.getItem('token')
             const formData = new FormData();
             formData.append('image', this.state.file)
-            await axios.post('http://localhost:4000/api/post', formData, {
+            await axios.post('https://appexpressjwt.herokuapp.com/api/post', formData, {
                 headers: {'x-access-token': token,
                 'content-type': 'multipart/form-data'}
             })
