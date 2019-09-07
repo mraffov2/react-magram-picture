@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-magram-picture/precache-manifest.57b85cd9857a870830bd2f38a91df5a4.js"
+  "/react-magram-picture/precache-manifest.944a325fed9d2fa4e8f7f4cda63990d0.js"
 );
 
 self.addEventListener('message', (event) => {
