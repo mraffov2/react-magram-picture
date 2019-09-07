@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fa4f4d032cc2a509914977f63a37650",
+    "revision": "023017a93a0e80f98d8a97113e50c4b8",
     "url": "/react-magram-picture/home/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-magram-picture/home/static/js/2.1478327a.chunk.js"
   },
   {
-    "revision": "f43123ec412c606191e6",
-    "url": "/react-magram-picture/home/static/js/main.e3570599.chunk.js"
+    "revision": "d0c93cf26f74f9b4f54b",
+    "url": "/react-magram-picture/home/static/js/main.214ce890.chunk.js"
   },
   {
     "revision": "0d6a7ead674141e09691",
